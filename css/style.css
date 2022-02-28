@@ -1,0 +1,602 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.carousel-inner{
+    height: auto;
+}
+.w-100{
+    object-fit: cover;
+    height: 100vh;
+    object-fit: fill;
+}
+.carousel-caption{
+    top: 150px;
+    position: relative;
+    text-align: left;
+    width: 80%;
+    transform: translate(-105px,0);
+    height: 50%;
+    z-index: 4;
+}
+.carousel-caption  h1{
+    text-align: left;
+    margin-bottom: 30px;
+    font-weight: 900;
+    width: 55%;
+}
+.carousel-caption  p{
+    text-align: left;
+    margin-bottom: 30px;
+    font-size: larger;
+    width: 40%;
+}
+.carousel-caption  ul{
+    text-align: left;
+    margin-bottom: 30px;
+}
+.carousel-caption  h5{
+    text-align: left;
+    font-weight: 900;
+    margin-bottom: 200px;
+    width: 35%;
+    cursor: pointer;
+    width: 200px;
+}
+.carousel-caption  h5:hover::before{
+    width: 12rem;
+}
+.carousel-caption  h5::before{
+    z-index: -1;
+    content: '';
+    position: absolute;
+    background-color: blue;
+    width: 9%;
+    height: 10%;
+    transition: all 1s ease-out;
+    transform: translateY(-4px);
+}
+.overlay::after{
+     content: '';
+     position: absolute;
+     top: 0;right: 0;left: 0;bottom: 0;
+     width: 40%;
+     height: 100%;   
+     background-color: rgb(5, 5, 73);
+     opacity: 0.9;
+     box-shadow: 0px 0px 180px 180px rgb(5, 5, 73);
+}
+@media (max-width:992px){
+    .w-100{
+        width: 100%;
+        height: 350px;
+    }
+    .carousel-inner{
+        height: 350px;
+    }
+    .carousel-caption{
+        top: 180px;
+        text-align: left;
+        width: 100%;
+        transform: translate(-90px,-100px);
+        height: 100%;
+        font-size: 80%;
+        z-index: 1;
+        padding: 30px 50px;
+    }
+    .carousel-caption  h1{
+        top: 0;
+        text-align: left;
+        margin-bottom: 30px;
+        font-weight: 900;
+        width: 100%;
+        font-size: 200%;
+    }
+    .carousel-caption  p{
+        text-align: left;
+        margin-bottom: 30px;
+        font-size: larger;
+        width: 80%;
+    }
+    .carousel-caption  ul{
+        text-align: left;
+        margin-bottom: 30px;
+        width: 80%;
+    }
+    .carousel-caption  h5{
+        text-align: left;
+        font-weight: 900;
+        margin-bottom: 200px;
+        width: 80%;
+        cursor: pointer;
+    }
+    .section-2 h2{
+        margin-top: 30px !important;
+    }
+    .section-2 h2::after{
+        transform: translate(-210px,40px) !important;
+    }
+    .section-4{
+        display: grid;
+        grid-template-columns: repeat(2,3fr) !important;
+        grid-template-rows: repeat(2,3fr) !important;
+        place-items: center;
+    }
+    .section3{
+        flex-direction: column !important;
+        align-items: center;
+        margin-left: 25%;
+    }
+    .contact{
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact{
+        height: 1000px !important;
+    }
+    #section-5{
+        margin-top: 300px;
+    }
+}
+@media (max-width:776px){
+    .w-100{
+        width: 100%;
+        height: 350px;
+    }
+    .carousel-inner{
+        height: 350px;
+    }
+    .carousel-caption{
+        top: 160px;
+        text-align: left;
+        width: 100%;
+        transform: translate(-80px,-100px);
+        height: 100%;
+        font-size: 75%;
+        z-index: 1;
+        padding: 25px 45px;
+    }
+    .carousel-caption  h1{
+        top: 0;
+        text-align: left;
+        margin-bottom: 30px;
+        font-weight: 900;
+        width: 100%;
+        font-size: 200%;
+    }
+    .carousel-caption  p{
+        text-align: left;
+        margin-bottom: 25px;
+        font-size: larger;
+        width: 80%;
+    }
+    .carousel-caption  ul{
+        text-align: left;
+        margin-bottom: 25px;
+        width: 80%;
+    }
+    .carousel-caption  h5{
+        text-align: left;
+        font-weight: 900;
+        margin-bottom: 150px;
+        width: 80%;
+        cursor: pointer;
+    }
+    .section-2 h2{
+        margin-top: 15px !important;
+    }
+    .section-2 h2::after{
+        transform: translate(-190px,40px) !important;
+    }
+    .section-2 div img{
+        width: 250px !important;
+        height: 60px !important;
+    }
+    .section-2 p{
+        margin-top: 20px !important;
+    }
+    .section-2 .carousel-inner{
+        height: 120px !important;
+    }
+    .card-section{
+        flex-direction: column;
+        justify-content: center !important;
+        align-items: center;
+    }
+    #card-section h4{
+        width: 80% !important;
+    }
+    .section-4{
+        display: grid;
+        grid-template-columns: repeat(1,3fr) !important;
+        grid-template-rows: repeat(1,3fr) !important;
+        place-items: center;
+    }
+    .section3{
+        flex-direction: column !important;
+        margin-left: 10%;
+        align-items: center;
+    }
+    .section-3{
+        width: 60vh !important;
+        height: 300px !important;
+   }
+   .flex{
+       flex-direction: column;
+       align-items: center;
+   }
+   .c-7{
+       flex-direction: column;
+       align-items: center;
+}
+.contact{
+    height: 1300px !important;
+}
+#section-5{
+    margin-top: 900px;
+}
+
+}
+@media (max-width:568px){
+    .w-100{
+        width: 100%;
+        height: 350px;
+    }
+    .carousel-inner{
+        height: 350px;
+    }
+    .carousel-caption{
+        top: 180px;
+        text-align: left;
+        width: 100%;
+        transform: translate(-50px,-100px);
+        height: 100%;
+        font-size: 75%;
+        z-index: 1;
+        padding: 25px 45px;
+    }
+    .carousel-caption  h1{
+        top: 0;
+        text-align: left;
+        margin-bottom: 20px;
+        font-weight: 900;
+        width: 100%;
+        font-size: 150%;
+    }
+    .carousel-caption  p{
+        text-align: left;
+        margin-bottom: 15px;
+        font-size: larger;
+        width: 90%;
+    }
+    .carousel-caption  ul{
+        text-align: left;
+        margin-bottom: 15px;
+        width: 100%;
+        font-size: 80%;
+    }
+    .carousel-caption  h5{
+        text-align: left;
+        font-weight: 900;
+        font-size: 120%;
+        margin-bottom: 100px;
+        width: 160px;
+        cursor: pointer;
+    }
+    .carousel-caption  h5::before{
+        z-index: -1;
+        content: '';
+        position: absolute;
+        background-color: blue;
+        width: 9%;
+        height: 8%;
+        transform: translateY(-4px);
+    }
+    .carousel-control-next i{
+        font-size: 200% !important;
+        font-weight: 100 !important;
+        color: white !important;
+        transform: translateY(40px) !important;
+    }
+    .carousel-control-prev i{
+        font-size: 200% !important;
+        font-weight: 100 !important;
+        color: white !important;
+        transform: translateY(40px) !important;
+    }
+    .section-2 h2{
+        margin-top: 10px !important;
+    }
+    .section-2 h2::after{
+        transform: translate(-170px,40px) !important;
+    }
+    .section-2 div img{
+        width: 220px !important;
+        height: 45px !important;
+    }
+    .section-2 p{
+        margin-top: 15px !important;
+    }
+    .section-2 .carousel-inner{
+        height: 110px !important;
+    }
+    .section-3{
+        width: 40vh !important;
+        height: 200px !important;
+   }
+   .flex{
+    flex-direction: column;
+}
+}
+@media (max-width:350px){
+    .w-100{
+        height: 500px !important;
+    }
+    .carousel-inner{
+        height: 500px !important;
+    }
+    .carousel-caption  ul{
+        flex-direction: column;
+    }
+    .section-4 img{
+        width: 200px !important;
+        height: 200px !important;
+    }
+    .content{
+        width: 200px !important;
+        height: 200px !important;
+        font-size: 80% !important;
+    }
+    .section-3{
+        width: 20vh !important;
+        height: 100px !important;
+   }
+   .flex{
+    flex-direction: column;
+}
+}
+@media (max-width:250px){
+    .w-100{
+        height: 600px !important;
+    }
+    .carousel-inner{
+        height: 600px !important;
+    }
+    .carousel-caption  ul{
+        flex-direction: column;
+        width: 100%;
+    }
+    .carousel-caption  h1{
+        width: 100%;
+    }
+    .carousel-caption  p{
+        width: 100%;
+    }
+    .carousel-caption{
+        transform: translate(-50px,-80px);
+    }
+    .section-2{
+        font-size: 80%;
+    }
+    .section-4 img{
+        width: 150px !important;
+        height: 150px !important;
+    }
+    .content{
+        width: 150px !important;
+        height: 150px !important;
+        font-size: 80% !important;
+    }
+    .flex{
+        flex-direction: column;
+    }
+}
+.carousel-control-next i{
+    font-size: 400%;
+    font-weight: 100;
+    color: white;
+}
+.carousel-control-prev i{
+    font-size: 400%;
+    font-weight: 100;
+    color: white;
+}
+.carousel-caption h1{
+    animation: backInDown;
+    animation-duration: 5s;
+}
+.carousel-caption ul{
+    animation: backInDown;
+    animation-duration: 4s;
+}
+.carousel-caption p{
+    animation: backInDown;
+    animation-duration: 3s;
+}
+.carousel-caption h5{
+    animation: backInDown;
+    animation-duration: 2s;
+}
+
+
+
+/* section-2 */
+.section-2 h2{
+    font-weight: 600;
+    padding-bottom: 10px;
+    font-size: 140%;
+}
+.section-2 div img{
+    width: 320px;
+    height: 80px;
+}
+.owl-carousel{
+    padding: 10px 30px;
+}
+
+/* .card-section */
+
+.card-section{
+          display: flex;
+          justify-content: space-around;
+          transition: 5s;
+}
+#card-section{
+    background: url(/images/2.1.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: -2;
+}
+.card-section img{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 30px;
+    border-radius: 50%;
+}
+.card-section div{
+    background-color: transparent;
+    border: none;
+    z-index: 4;
+}
+.card-section div a{
+    background-color: transparent;
+    color: black;
+    border: none;
+    color: white;
+}
+#card-section h4{
+    padding-top: 30px;
+    width: 50%;
+    text-align: center !important;
+    font-weight: 700;
+    margin-top: 20px;
+    z-index: -1;
+}
+#card-section p{
+    font-weight: 600;
+    margin-top: 20px;
+    z-index: 4;
+}
+#card-section::before{
+  z-index: -1;
+  position: absolute;
+  content: '';
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  opacity: 0.8;
+}
+.a{
+    border-bottom: 5px solid rgb(14, 14, 161);
+    width: 20%;
+    font-display: flex;
+    font-size: smaller;
+    height: 0;
+}
+.section-3{
+     width: 80vh;
+     height: 400px !important;
+}
+.section-3 img{
+    height: 400px;
+}
+.section-4{
+    display: grid;
+    grid-template-columns: repeat(3,3fr);
+    grid-template-rows: repeat(3,3fr);
+    place-items: center;
+    height: 450px;
+}
+.section-4 div img{
+    width: 380px;
+    height: 200px;
+}
+.content{
+    position: absolute;
+    width: 380px;
+    height: 200px;
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+}
+.content p{
+    opacity: 0;
+    width: 1px solid white;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.section-4 div:hover >.content p{
+    opacity: 1;
+    transition: .8s;
+}
+.section-4 div:hover >.content{
+    background-color: rgba(0, 0, 0, 0.6);
+    transition: .8s;
+}
+#section-5 i{
+    font-size: 50px;
+    margin-top: 20px;
+}
+.c-5{
+    width: 150px !important;
+    margin: 20px;
+    box-shadow: 0 0 10px 2px black;
+}
+#section-6 div img{
+    width: 300px;
+    height: 150px;
+    margin: 10px;
+}
+#section-6 h3{
+    position: absolute;
+    transform: translate(20px,100px);
+    color: white;
+    z-index: 1;
+}
+#section-6 div p{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 300px;height: 150px;
+    transform: translate(10px,10px);
+}
+.c-7 div:hover >.h3{
+    transform: translate(20px,70px) !important;
+    transition: 1s;
+}
+.c-7 div:hover >.p{
+    background-color: transparent !important;
+    transition: 1s;
+}
+#contact button{
+    height: 10px !important;
+    margin-top: 30px;
+}
+.contact{
+    margin-top: 50px;
+}
+footer ul li a{
+     text-decoration: none !important;
+     color: black;
+}
+.head{
+    font-size: large;
+    font-weight: 700;
+}
+footer ul li{
+    margin-top: 20px;
+}
+footer{
+    background-color: rgb(170, 165, 165);
+}
+footer i{
+    border: 1px solid black;
+    padding: 10px;
+}
+.last{
+    padding-bottom: 20px;
+}

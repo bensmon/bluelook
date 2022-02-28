@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bluelook</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<link
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- navbar start -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container-fluid">
+          <div class="navbar-brand mb-2">
+              <img src="/images/logo.png" alt="" width="126px" height="36px">
+          </div>
+          <button class="navbar-toggler ms-auto me-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="navbardropdown" role="button" data-bs-toggle="dropdown" href="#" aria-expanded="false">Company</a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">About</a></li>
+                    <li><a class="dropdown-item" href="#">Process</a></li>
+                    <li><a class="dropdown-item" href="#">Testtimonials</a></li>
+                    <li><a class="dropdown-item" href="#">Life @ Bluelook</a></li>
+                    <li><a class="dropdown-item" href="#">Engagement Model</a></li>
+                  </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link dropdown-toggle" id="navbardropdown" role="dropdown" data-bs-toggle="dropdown" aria-expanded="false" href="#">Services</a>
+                <ul class="dropdown-menu container-fluid" aria-labelledby="navbarDropdown">
+                   <div class="row justify-content-around">
+                    <div class="col-lg-2">
+                    <li><a class="dropdown-item text-primary" href="#">Product Development</a></li>
+                    <li><a class="dropdown-item" href="#">SaasCommerce</a></li>
+                    <li><a class="dropdown-item" href="#">Seeverless Development</a></li>
+                    <li><a class="dropdown-item" href="#">MVP Development</a></li>
+                    <li><a class="dropdown-item" href="#">eDevelopment</a></li>
+                    </div>
+                    <div class="col-lg-2">
+                    <li><a class="dropdown-item text-primary" href="#">Mobile Apps</a></li>
+                    <li><a class="dropdown-item" href="#">IOS</a></li>
+                    <li><a class="dropdown-item" href="#">Android</a></li>
+                    <li><a class="dropdown-item" href="#">React Native</a></li>
+                    <li><a class="dropdown-item" href="#">Flutter</a></li>
+                    </div>
+                    <div class="col-lg-2">
+                    <li><a class="dropdown-item text-primary" href="#">Intelligent Automation</a></li>
+                    <li><a class="dropdown-item" href="#">IOT Development</a></li>
+                    <li><a class="dropdown-item" href="#">RPA</a></li>
+                    <li><a class="dropdown-item" href="#">Chatbot Development</a></li>
+                    </div>
+                    <div class="col-lg-2">
+                    <li><a class="dropdown-item text-primary" href="#">Mobile App Dvelopment</a></li>
+                    <li><a class="dropdown-item" href="#">Web Development</a></li>
+                    <li><a class="dropdown-item" href="#">IoT Development</a></li>
+                    <li><a class="dropdown-item" href="#">User Experiance Design</a></li>
+                    <li><a class="dropdown-item" href="#">Digital Marketing</a></li>
+                    <li><a class="dropdown-item" href="#">Staff Augmentation</a></li>
+                    <li><a class="dropdown-item" href="#">Devops Consulting Services</a></li>
+                    <li><a class="dropdown-item" href="#">Digital Transformation</a></li>
+                    </div>
+                   </div>
+                  </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Technologies
+                </a>
+                <ul class="dropdown-menu container-fluid" aria-labelledby="navbarDropdown">
+                    <div class="row justify-content-around">
+                        <div class="col-lg-2">
+                        <li><a class="dropdown-item text-primary" href="#">Backend Technologies</a></li>
+                        <li><a class="dropdown-item" href="#">Laravel PHP</a></li>
+                        <li><a class="dropdown-item" href="#">Node js</a></li>
+                        <li><a class="dropdown-item" href="#">Java spring boot</a></li>
+                        <li><a class="dropdown-item" href="#">ASP.NET</a></li>
+                        </div>
+                        <div class="col-lg-2">
+                        <li><a class="dropdown-item text-primary" href="#">Frontend Technologies</a></li>
+                        <li><a class="dropdown-item" href="#">Angular.js</a></li>
+                        <li><a class="dropdown-item" href="#">Vue.js</a></li>
+                        <li><a class="dropdown-item" href="#">IOS</a></li>
+                        <li><a class="dropdown-item" href="#">Android</a></li>
+                        <li><a class="dropdown-item" href="#">React Native</a></li>
+                        </div>
+                        <div class="col-lg-2">
+                        <li><a class="dropdown-item text-primary" href="#">UI/UX Designing Tools</a></li>
+                        <li><a class="dropdown-item" href="#">Adope Photoshop</a></li>
+                        <li><a class="dropdown-item" href="#">Adope XD</a></li>
+                        <li><a class="dropdown-item" href="#">Figma</a></li>
+                        </div>
+                            <img src="/images/dropdown.jpg" class="col-lg-2" alt="">
+                       </div>
+                  </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Our Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Blogs</a>
+              </li>
+            </ul>
+            <div class="nav-icon mx-lg-3 mb-2 mb-lg-0">
+             <a href=""><i class="fab fa-twitter mx-lg-2 text-dark"></i></a>
+             <a href=""> <i class="fab fa-instagram mx-2 text-dark"></i></a>
+             <a href=""><i class="fab fa-facebook mx-2 text-dark"></i></a>
+             <a href=""> <i class="fab fa-youtube mx-2 text-dark"></i></a>
+             <a href=""><i class="fab fa-linkedin-in mx-2 text-dark"></i></a>
+            </div>
+          </div>
+          <button class="btn btn-primary btn-sm" type="button" id="contact">contact</button>
+        </div>
+      </nav>
+    <!-- navbar end -->
+
+
+
+
+    <!-- carousel start -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active overlay">
+          <img src="/images/1.jpeg" class="d-block w-100" alt="...">
+          <div class="carousel-caption">
+            <h1>A Creative Web Development Company in Bangalore</h1>
+            <ul class="carousel-icon d-flex list-unstyled">
+              <li><i class="fab fa-html5 me-2 text-primary"></i>HTML</li>
+              <li><i class="fab fa-css3 mx-2 text-primary"></i>CSS</li>
+              <li><i class="fas fa-bold mx-2 text-primary"></i>Bootstrap</li>
+              <li><i class="fas fa-snowflake mx-2 text-primary"></i>React Native</li>
+              <li><i class="fab fa-connectdevelop mx-2 text-primary"></i>Dev</li>
+            </ul>
+            <p>Our experiance in helping enterprises of all sizes utilise cutting-edge has helped provide our customers with the gretest web apps</p>
+            <h5><i class="fas fa-angle-right mx-3"></i>JOIN WITH US</h5>
+          </div>
+        </div>
+        <div class="carousel-item overlay">
+          <img src="/images/2.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption">
+            <h1>Digital transformation Company in bangalore</h1>
+            <ul class="carousel-icon d-flex list-unstyled">
+              <li><i class="fas fa-mobile me-2 text-primary"></i>IOT</li>
+              <li><i class="fab fa-odnoklassniki mx-2 text-primary"></i>AI</li>
+              <li><i class="fab fa-android mx-2 text-primary"></i>RPA</li>
+              <li><i class="fas fa-user mx-2 text-primary"></i>chatbot</li>
+              <li><i class="fab fa-jsfiddle mx-2 text-primary"></i>Cloud</li>
+            </ul>
+            <p>If you want to change your Business, bethink very smart change to digital flatform and incress your business Market in this indusstry</p>
+            <h5><i class="fas fa-angle-right mx-3"></i>JOIN WITH US</h5>
+          </div>
+        </div>
+        <div class="carousel-item overlay">
+          <img src="/images/2.1.webp" class="d-block w-100" alt="...">
+          <div class="carousel-caption">
+            <h1>Mobile App Development for developing enterprises</h1>
+            <ul class="carousel-icon d-flex list-unstyled">
+              <li><i class="fab fa-apple me-2 text-primary"></i>IOS App Dvelopment</li>
+              <li><i class="fab fa-android mx-2 text-primary"></i>Android App Development</li>
+            </ul>
+            <p>We provide apps of the hightest quality to help your business to grow through the utilization of cutting edge Technology</p>
+            <h5><i class="fas fa-angle-right mx-3"></i>JOIN WITH US</h5>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <i class="fas fa-angle-double-left me-auto"></i>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <i class="fas fa-angle-double-right ms-auto text-white"></i>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- carousel end -->
+
+    <!-- carousel-2 start -->
+   <section class="section-2"  data-aos="fade-up"
+   data-aos-duration="3000">
+    <h2 class="text-center mt-5">CUSTOMERS WE ARE PPROUD OF</h2>
+    <div class="text-center a mx-auto">.</div>
+    <P class="text-center mt-4">We come up with crative ideas to design, crate, and launch Products that will serve as the foundations for the industry digital tranformation while keeping the client constraints and specification in mind</P>
+
+   <div class="owl-carousel carousel-theme">
+     <div class="item mx-1"><img src="/images/4.png" alt=""></div>
+     <div class="item mx-1"><img src="/images/7.png" alt=""></div>
+     <div class="item mx-1"><img src="/images/6.svg" alt=""></div>
+     <div class="item mx-1"><img src="/images/7.png" alt=""></div>
+     <div class="item mx-1"><img src="/images/3.png" alt=""></div>
+     <div class="item mx-1"><img src="/images/4.png" alt=""></div>
+   </div>
+    
+   </section>
+
+
+    <!-- carousel-2 end -->
+    <section id="card-section">
+      <h4 class="text-center text-white mx-auto"  data-aos="fade-up"
+      data-aos-duration="3000">OUR MOST VALUABLE SERVICES FOR GIGITAL TRANSFORMATION</h4>
+      <div class="text-center a mx-auto">.</div>
+      <p class="text-center text-white"  data-aos="fade-up"
+      data-aos-duration="3000">We come up with crative ideas to design, crate, and launch Products that will serve as the foundations for the industry digital tranformation while keeping the client constraints and specification in mind</p>
+     <div class="card-section text-center text-white" data-aos="zoom-in" data-aos-duration="2000">
+      <div class="card " style="width: 18rem;">
+        <img src="/images/setting.png" class="img mx-auto" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">View</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="/images/setting.png" class="img mx-auto" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">view</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="/images/setting.png" class="img mx-auto" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">View</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="/images/setting.png" class="img mx-auto" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">View</a>
+        </div>
+      </div>
+     </div>
+     <div class="card-section text-center text-white" data-aos="zoom-in" data-aos-duration="2000">
+      <div class="card" style="width: 18rem;">
+        <img src="/images/setting.png" class="img mx-auto" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">View</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="/images/setting.png" class="img mx-auto" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">view</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="/images/setting.png" class="img mx-auto" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">View</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="/images/setting.png" class="img mx-auto" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">View</a>
+        </div>
+      </div>
+     </div>
+    </section>
+
+    <!-- section-3 -->
+    <section id="section-3"  data-aos="fade-up"
+    data-aos-duration="3000">
+      <h2 class="text-center mt-5">our upcoming outstanding products</h2>
+      <div class="text-center a mx-auto">.</div>
+      <P class="text-center mt-4">
+        By providing our services, we help the world's most prominent brands produce high-quality items. Tell us about your new company needs, and we'll collaborate with you to make it a success.
+      </P>
+     <div class="d-flex justify-content-around section3">
+      <div id="carouselExampleControls" class="carousel slide section-3" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="/images/1.jpeg" class="d-block" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="/images/2.jpg" class="d-block" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="/images/2.1.webp" class="d-block" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div id="carouselExampleControls" class="carousel slide section-3" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="/images/2.jpg" class="d-block" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="/images/1.jpeg" class="d-block" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="/images/2.jpg" class="d-block" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+     </div>
+
+    </section>
+    <!-- section-4 -->
+        <section id="section-4"  data-aos="fade-up"
+        data-aos-duration="3000" class="mt-5">
+          <h2 class="text-center mt-5">our upcoming outstanding products</h2>
+      <div class="text-center a mx-auto">.</div>
+      <P class="text-center mt-4">
+        By providing our services, we help the world's most prominent brands produce high-quality items. Tell us about your new company needs, and we'll collaborate with you to make it a success.
+      </P>
+      <div class="section-4">
+        <div><div class="content"><h1>bluelook</h1><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique ratione adipisci odio?</p></div>
+          <img src="/images/2.jpg" alt="" class="mt-2">
+        </div>
+        <div><div class="content"><h1>bluelook</h1><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique ratione adipisci odio?</p></div>
+          <img src="/images/2.jpg" alt="" class="mt-2">
+        </div>
+        <div><div class="content"><h1>bluelook</h1><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique ratione adipisci odio?</p></div>
+          <img src="/images/2.jpg" alt="" class="mt-2">
+        </div>
+        <div><div class="content"><h1>bluelook</h1><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique ratione adipisci odio?</p></div>
+          <img src="/images/2.jpg" alt="" class="mt-2">
+        </div>
+        <div><div class="content"><h1>bluelook</h1><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique ratione adipisci odio?</p></div>
+          <img src="/images/2.jpg" alt="" class="mt-2">
+        </div>
+        <div><div class="content"><h1>bluelook</h1><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique ratione adipisci odio?</p></div>
+          <img src="/images/2.jpg" alt="" class="mt-2">
+        </div>
+        </div>
+        </section>
+
+        <!-- setion-5 -->
+        <section id="section-5"  data-aos="fade-up"
+        data-aos-duration="3000">
+          <h2 class="text-center mt-5">SUCCESS OF BLUELOOK</h2>
+          <div class="text-center a mx-auto">.</div>
+          <P class="text-center mt-4">
+            By providing our services, we help the world's most prominent brands produce high-quality items. Tell us about your new company needs, and we'll collaborate with you to make it a success.
+          </P>
+         <div class="d-flex justify-content-center flex">
+            <div class="card text-center c-5" style="width: 18rem;">
+              <i class="fas fa-user"></i>
+              <div class="card-body">
+                <h5 class="card-title">25+</h5>
+                <p class="card-text">Project Deliverd</p>
+              </div>
+           </div>
+            <div class="card text-center c-5" style="width: 18rem;">
+              <i class="fas fa-user"></i>
+              <div class="card-body">
+                <h5 class="card-title">25+</h5>
+                <p class="card-text">Project Deliverd</p>
+              </div>
+           </div>
+            <div class="card text-center c-5" style="width: 18rem;">
+              <i class="fas fa-user"></i>
+              <div class="card-body">
+                <h5 class="card-title">25+</h5>
+                <p class="card-text">Project Deliverd</p>
+              </div>
+           </div>
+            <div class="card text-center c-5" style="width: 18rem;">
+              <i class="fas fa-user"></i>
+              <div class="card-body">
+                <h5 class="card-title">25+</h5>
+                <p class="card-text">Project Deliverd</p>
+              </div>
+           </div>
+            <div class="card text-center c-5" style="width: 18rem;">
+              <i class="fas fa-user"></i>
+              <div class="card-body">
+                <h5 class="card-title">25+</h5>
+                <p class="card-text">Project Deliverd</p>
+              </div>
+           </div>
+           </div>
+           <div class="d-flex justify-content-center">
+            <div class="card text-center c-5" style="width: 18rem;">
+              <i class="fas fa-user"></i>
+              <div class="card-body">
+                <h5 class="card-title">25+</h5>
+                <p class="card-text">Project Deliverd</p>
+              </div>
+           </div>
+           </div>
+           </div>
+        </section>
+          <!-- section-6 -->
+        <section id="section-6"  data-aos="fade-up"
+        data-aos-duration="3000">
+          <h2 class="text-center mt-5">LEARN ABOUT DIGITAL TECHNOLOGY AND HOW IT CAN IMPROVE YOUR LIFE</h2>
+          <div class="text-center a mx-auto">.</div>
+          <P class="text-center mt-4">
+            By providing our services, we help the world's most prominent brands produce high-quality items. Tell us about your new company needs, and we'll collaborate with you to make it a success.
+          </P>
+          <div class="d-flex justify-content-center c-7">
+           <div><h3 class="h3">BLOGS</h3><p class="p"></p><img src="/images/1.jpeg" alt=""></div>
+           <div><h3 class="h3">SERVICE</h3><p class="p"></p><img src="/images/1.jpeg" alt=""></div>
+           <div><h3 class="h3">PRODUCTS</h3><p class="p"></p><img src="/images/1.jpeg" alt=""></div>
+            
+          </div>
+        </section>
+        <!-- contact -->
+        <section id="#contact">
+          <h2 class="text-center mt-5">GET IN TOUCH</h2>
+          <div class="text-center a mx-auto">.</div>
+          <div class="d-flex contact">
+            <div class="m-2"><img src="/images/2.jpg" alt="" style="width: 500px; height: 500px;"></div>
+            <div class="m-2 w-100 mt-3">
+             <div class="row">
+              <div class="mb-3 col-sm-6">
+                <label for="" class="form-label">Enter your name</label>
+                <input type="name" class="form-control">
+              </div>
+              <div class="mb-3 col-sm-6">
+                <label for="" class="form-label">Phone number</label>
+                <input type="number" class="form-control">
+              </div>
+             </div>
+             <div class="row">
+              <div class="mb-3 col-sm-6">
+                <label for="" class="form-label">Email</label>
+                <input type="name" class="form-control">
+              </div>
+              <div class="mb-3 col-sm-6">
+                <label for="" class="form-label">services</label>
+                <select class="form-select" aria-label="Default select example">
+                  <option selected>select services</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+              </div>
+              <div class="row">
+                <div class="mb-3 col-12">
+                  <label for="exampleFormControlInput1" class="form-label">subject</label>
+                  <input type="subject" class="form-control">
+                </div>
+                <div class="mb-3 col-12">
+                  <label for="exampleFormControlTextarea1" class="form-label">Write message</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+              </div>
+             </div>
+              <div class="row">
+                <div class="mb-3 col-sm-6">
+                  <label for="formFile" class="form-label">Attach a file</label>
+                  <input class="form-control" type="file" id="formFile">
+                </div>
+                <div class="col mt-4">
+                  <button type="submit" class="btn btn-primary mb-3">Send Message</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- footer -->
+        <footer class="mt-5">
+          <ul class="container-fluid list-unstyled">
+            <div class="row justify-content-around mx-auto">
+             <div class="col-lg-2">
+             <li><a href="#" class="head">COMPANY</a></li>
+             <li><a href="#">About</a></li>
+             <li><a href="#">Testimonial</a></li>
+             <li><a href="#">Process</a></li>
+             <li><a href="#">Life @ Bluelook</a></li>
+             <li><a href="#">Careers</a></li>
+             <li><a href="#">Engagement Model</a></li>
+             </div>
+             <div class="col-lg-2">
+             <li><a href="#" class="head">SERVICES</a></li>
+             <li><a href="#">Mobile App Development</a></li>
+             <li><a href="#">Web Development</a></li>
+             <li><a href="#">User Experience Design</a></li>
+             <li><a href="#">IOT Development</a></li>
+             <li><a href="#">Chatbot Development</a></li>
+             <li><a href="#">Staff Augmentation</a></li>
+             <li><a href="#">Digital Transformation</a></li>
+             </div>
+             <div class="col-lg-2">
+             <li><a href="#" class="head">Blog</a></li>
+             <li><a href="#">Our Products</a></li>
+             <li><a href="#">Technologies</a></li>
+             <li><a href="#" class="head">SUPPORT</a></li>
+             <li><a href="#">24/7 Customer Service</a></li>
+             </div>
+             <div class="col-lg-2">
+             <li><a href="#" class="head">CONTACT</a></li>
+             <li>Location: <a href=""> <span class="text-primary">Bangalore, India</span></a></li>
+             <li>Business: <a href=""> <span class="text-primary">hello@bluelooktech.com</span></a></li>
+             <li>Job Mail: <a href=""> <span class="text-primary"> hr@bluelooktech.com</span></a></li>
+             <li>skype:  <a href=""> <span class="text-primary">sathya@bluelook</span></a></li>
+             <li><a href="#">Staff Augmentation</a></li>
+             <li><a href="#">Devops Consulting Services</a></li>
+             <li><a href="#">Digital Transformation</a></li>
+             </div>
+            </div>
+           </ul>
+           <hr>
+          <div class="d-sm-flex last">
+            <p class="ms-2">© 2021 Copyright: Bluelook Technologies private limited</p>
+            <div class="ms-auto me-3">
+             <a href=""><i class="fab fa-twitter mx-2 text-dark"></i></a>
+             <a href=""> <i class="fab fa-instagram mx-2 text-dark"></i></a>
+             <a href=""><i class="fab fa-facebook mx-2 text-dark"></i></a>
+             <a href=""> <i class="fab fa-youtube mx-2 text-dark"></i></a>
+             <a href=""><i class="fab fa-linkedin-in mx-2 text-dark"></i></a>
+            </div>
+          </div>
+            
+        </footer>
+
+
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="/js/app.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script>
+    $('.owl-carousel').owlCarousel({
+loop:true,
+margin:10,
+nav:false,
+autoplay:true,
+autoplayTimeout: 2000,
+dots: true,
+center:true,
+stagepadding: 50,
+responsive:{
+    0:{
+        items:1
+    },
+    600:{
+        items:3
+    },
+    1000:{
+        items:5
+    }
+}
+    }  )  
+</script>
+</body>
+</html>
